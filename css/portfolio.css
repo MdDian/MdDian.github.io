@@ -1,0 +1,98 @@
+/* aanmaak datum:18/12/2018, 13:40,  
+authoror: Mohamad Dian*/
+
+body
+{
+	background-color: #e6e6ff;
+	margin: 1%;
+}
+
+nav{
+	height: 45px;
+	margin-right: 2%;
+	margin-left: 2%;
+
+	padding-top: 5px;
+	padding-left: 1%;
+
+	box-shadow: inset 6px 6px 15px 0.6px #0c2a18de;	
+
+	border: 1px solid black; 
+	border-radius: 4px;
+
+	background: linear-gradient(to right,   #ffff99 20%, #f2f2f2 60%, #b3ffb3);  
+		
+}
+
+nav a{
+
+	height: 30px;
+    margin-left: 1.5%;
+
+	text-decoration: none;
+	font-size: 133%;
+	padding: 2px;
+	background-color: white;
+	border: 1px solid #4d0000;
+	border-radius: 3px;
+    
+	background: #99ebff;
+	
+	position: relative;
+	top: -15px;
+	
+    border-radius: 12px;
+	box-shadow: 4px 8px 11px #404040;
+	;
+}
+
+a:hover
+{
+	opacity: 0.9;
+	background: linear-gradient(to right, yellow, white, yellow);
+}
+a:active
+{
+	opacity: 0.8;
+    background: linear-gradient(to right, white, yellow 66%, white);
+	margin-top: 4px;
+	border-radius: 50%;
+	font-size: 120%;
+}
+
+.logohome{
+	width: 140px;
+}
+
+
+
+/* begin dropdown ------------------------------------------------*/
+
+/*button en dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* alle linkjes*/
+.dropdown-content {
+	position: absolute;
+	display: none;
+	min-width: 55px;
+	font-size: 80%;
+	margin-top: 4px;
+}
+
+/* een linkje in de dropdown content */
+.dropdown-content a {
+	display: block;
+	text-align: center;
+	padding: 3px;
+	height: auto;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* einde dropdown ------------------------------------------------*/
