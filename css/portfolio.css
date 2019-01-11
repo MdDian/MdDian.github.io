@@ -1,5 +1,5 @@
 /* aanmaak datum:18/12/2018, 13:40,  
-authoror: Mohamad Dian*/
+Author: Mohamad Dian*/
 
 :root{
 	--color1: #1af186f5; 
@@ -7,67 +7,45 @@ authoror: Mohamad Dian*/
 	--color3: blue;
 	--box-shadow: 1px 2px 5px#3d3d5c;
 }
-
 body
 {
 	background-color: #e6e6ff;
-	margin: 1%;
 }
-
 nav{ 
+	height: 30px;
 	width: 60%;
-	box-shadow: 2px 3px 5px #0a0a0f;
-
+	/* box-shadow: 2px 3px 5px #0a0a0f; */
 	margin-left: 20%;
-
 	border-width: 0px 0px 1px 0px;
 	border-style: double;
 	border-color:  #8080ff;
 	border-radius: 50px;
-	
     text-align: center;
 	font-style: none;
-
 	position: sticky;
-	/* 
-	box-shadow: inset 6px 6px 15px 0.6px #0c2a18de;	
-
-	border: 1px solid black; 
-	border-radius: 4px;
-
+	box-shadow: inset 3px 3px 9px 1px #0c2a18de;	
 	background: linear-gradient(to right, #ffff99 20%, #f2f2f2 60%, #b3ffb3);
- */
 }
-
 nav ul{
 	display: inline-block;
-	margin: 0px;
-	padding: 0px;
-	overflow: hidden;
+	/* overflow: hidden;*/
 	list-style: none;
+	display: block;
 }
-
 nav ul li{
-
+	vertical-align: center;
 	float: left;
 	margin-left: 10px;
-
 }
-
 nav ul li a{
-  
-    border-width: 1px 0px 0px 0.34px;
+    border-width: 1px 0px 0px 0px;
     border-style: solid;
     border-radius: 5px;
     border-color: #ffffff;
-
 	margin: 1px 15px 5px 15px;
 	padding: 2px 2px 2px 2px;
-
-	font-size: 105%;
-
 	background-color: var(--color1);
-	box-shadow: 4px 8px 11px #404040; 
+	/* box-shadow: 4px 8px 11px #404040; */
 	
 	text-decoration: none;
 	display: inline-block;
@@ -75,11 +53,8 @@ nav ul li a{
 	#1af1d4f5 backgroung aaaaa
 	height: 30px;
 	border: 1px solid #4d0000; 
-	
 	 */
 }
-
-
 a:hover
 {
 	opacity: 0.9;
@@ -93,55 +68,40 @@ a:active
 	border-radius: 50%;
 	font-size: 120%;
 }
-
-
 #imgingrid1{
-	height: 80%;
-	width:70%;
+	height: 16rem;
+	/* width:70%; */
 	border-radius: 10px;
 }
 #imgingrid2{
 	height: 16rem;
-	width: 100%;
-	border-radius: 10px;
-}
-
-#imgingrid3{
-	height: 90%;
-	width: 100%;
-	border-radius: 10px;
 	
+	border-radius: 10px;
 }
-
-/* grid-contener----------------------------------- */
-
+#imgingrid3{
+	height: 16rem;	
+	border-radius: 10px;	
+}
+/* grid-contener-------------------------------------- */
 
 .grid-container {
 	
-	width: 85%;
-	
+	width: 75%;
+	height: 16rem;
 	margin-left: 9%;
 	margin-top: 2%;
-
     display: grid;
 	grid-template-areas: 'myArea myArea myArea myArea';
-
 	grid-gap: 10px;
-	
 	padding: 0px;
 }
 .foto{
 	box-shadow: var(--box-shadow);
 }
-
-
 .grid-container div {
 		background-color: #9999ff;
 		padding: 10px;
 }
-
-
-
 /* ----------------telefoon--------------------------- */
 
 @media only screen and (max-width: 600px) {
