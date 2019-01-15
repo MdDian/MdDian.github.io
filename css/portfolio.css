@@ -19,13 +19,14 @@ nav{
 	border-width: 0px 0px 1px 0px;
 	border-style: double;
 	border-color:  #8080ff;
-	border-radius: 50px;
+	border-radius: 5px;
 	overflow: hidden;
     text-align: center;
 	font-style: none;
 	position: fixed;
-	box-shadow: inset 1.5px 1.5px 4.5px 0.5px #0c2a18de;	
-	background: linear-gradient(to right, #ffff99 20%, #f2f2f2 60%, #b3ffb3);
+	box-shadow: inset 1px 1px 0.5px 0.5px #0c2a18de;
+	background-color: #404040;	
+	/* background: linear-gradient(to right, #ffff99 20%, #f2f2f2 60%, #b3ffb3); */
 }
 nav ul{
 	display: inline-block;
@@ -39,8 +40,9 @@ nav ul li{
 	float: left;
 }
 nav ul li a{
+	color: black;
 
-    border-width: 1px 1px 0px 0px;
+    border-width: 1px  0px 1px 0px;
     border-style: solid;
     border-radius: 5px;
     border-color: #ffffff;
@@ -100,6 +102,7 @@ a:active
 }
 .foto{
 	box-shadow: var(--box-shadow);
+	display: grid;
 }
 .grid-container div {
 		background-color: #9999ff;
