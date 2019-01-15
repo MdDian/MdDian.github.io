@@ -12,9 +12,10 @@ body
 	background-color: #e6e6ff;
 }
 nav{ 
-	padding: 1.5px;
-	height: 28px;
-	width: 100%;
+	margin-right: 2%;
+	padding: 2px;
+	height: 30px;
+	width: 96%;
 	/* box-shadow: 2px 3px 5px #0a0a0f; */
 	border-width: 0px 0px 1px 0px;
 	border-style: double;
@@ -40,9 +41,10 @@ nav ul li{
 	float: left;
 }
 nav ul li a{
+	font-size: 110%;
 	color: black;
 
-    border-width: 1px  0px 1px 0px;
+    border-width: 1.5px  0px 1.5px 0px;
     border-style: solid;
     border-radius: 5px;
     border-color: #ffffff;
@@ -61,14 +63,14 @@ nav ul li a{
 }
 a:hover
 {
-	opacity: 0.9;
-	background: linear-gradient(to right, yellow, white, yellow);
+	opacity: 0.8;
+	background: linear-gradient(to right, white, yellow);
 	border-radius: 50px;
 }
 a:active
 {
 	opacity: 0.8;
-    background: linear-gradient(to right, white, yellow 66%, white);
+    background: linear-gradient(to left, white, yellow, green);
 	margin-top: 4px;
 	border-radius: 50%;
 	font-size: 120%;
@@ -80,7 +82,7 @@ a:active
 }
 #imgingrid2{
 	height: 16rem;
-	
+
 	border-radius: 10px;
 }
 #imgingrid3{
@@ -112,56 +114,21 @@ a:active
 
 @media only screen and (max-width: 600px) {
 	body {
-		background-color: #fdfdfd;
+		background-color: #50df250c;
 	}
-	nav{ 
-		overflow: hidden;
-		padding: 1.5px;
-		height: 1.7rem;
+	.grid-container {
+	
 		width: 100%;
-		
-		border-width: 0px 0px 1px 0px;
-		border-style: double;
-		border-color:  #8080ff;
-		border-radius: 50px;
-		text-align: center;
-		position: fixed;
-		font-style: none;
-		box-shadow: inset 3px 3px 9px 1px #0c2a18de;
-
-		background: linear-gradient(to right, #99f3ff 20%, #f2f2f2 60%, #b3ffb3);	
-		/* background: linear-gradient(to right, #ffff99 20%, #f2f2f2 60%, #b3ffb3); */
-	} 
-	nav ul{
-		display: inline-block;
-		/* overflow: hidden;*/
-		list-style: none;
-		margin: 0px;
+		height: 16rem;
+		margin-left: 1%;
+		margin-top: 7%;
+		display: grid;
+		grid-template-areas: 'myArea ';
+		grid-gap: 7px;
 		padding: 0px;
 	}
-	nav ul li{
-		vertical-align: center;
-		float: left;
-		
-	}
-	nav ul li a{
-		border-width: 1px 0px 0px 0px;
-		border-style: solid;
-		border-radius: 5px;
-		border-color: #ffffff;
-		margin: 1px 15px 5px 15px;
-		padding: 2px 2px 2px 2px;
-		background-color: var(--color1);
-		/* box-shadow: 4px 8px 11px #404040; */
-		
-		text-decoration: none;
-		display: inline-block;
-		/*
-		#1af1d4f5 backgroung aaaaa
-		height: 30px;
-		border: 1px solid #4d0000; 
-		 */
-	}
+	
+}
 
 
 
