@@ -102,10 +102,71 @@ a:active
 		background-color: #9999ff;
 		padding: 10px;
 }
-/* ----------------telefoon--------------------------- */
+/* ----------------------------telefoon----------------------------------- */
 
 @media only screen and (max-width: 600px) {
 	body {
-	  background-color: lightblue;
+		background-color: #fdfdfd;
 	}
+	nav{ 
+		height: 4rem;
+		width: 80%;
+		
+		margin-left: 10%;
+		border-width: 0px 0px 1px 0px;
+		border-style: double;
+		border-color:  #8080ff;
+		border-radius: 50px;
+		text-align: center;
+		font-style: none;
+		box-shadow: inset 3px 3px 9px 1px #0c2a18de;	
+		background: linear-gradient(to right, #ffff99 20%, #f2f2f2 60%, #b3ffb3);
+	}
+	nav ul{
+		display: inline-block;
+		/* overflow: hidden;*/
+		list-style: none;
+		display: block;
+	}
+	nav ul li{
+		vertical-align: center;
+		float: left;
+		margin-left: 1px;
+	}
+	nav ul li a{
+		border-width: 1px 0px 0px 0px;
+		border-style: solid;
+		border-radius: 5px;
+		border-color: #ffffff;
+		margin: 1px 15px 5px 15px;
+		padding: 2px 2px 2px 2px;
+		background-color: var(--color1);
+		/* box-shadow: 4px 8px 11px #404040; */
+		
+		text-decoration: none;
+		display: inline-block;
+		/*
+		#1af1d4f5 backgroung aaaaa
+		height: 30px;
+		border: 1px solid #4d0000; 
+		 */
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
