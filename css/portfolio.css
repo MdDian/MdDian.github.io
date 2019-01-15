@@ -12,33 +12,35 @@ body
 	background-color: #e6e6ff;
 }
 nav{ 
-	height: 30px;
-	width: 60%;
+	padding: 1.5px;
+	height: 28px;
+	width: 100%;
 	/* box-shadow: 2px 3px 5px #0a0a0f; */
-	margin-left: 20%;
 	border-width: 0px 0px 1px 0px;
 	border-style: double;
 	border-color:  #8080ff;
 	border-radius: 50px;
+	overflow: hidden;
     text-align: center;
 	font-style: none;
-	position: sticky;
-	box-shadow: inset 3px 3px 9px 1px #0c2a18de;	
+	position: fixed;
+	box-shadow: inset 1.5px 1.5px 4.5px 0.5px #0c2a18de;	
 	background: linear-gradient(to right, #ffff99 20%, #f2f2f2 60%, #b3ffb3);
 }
 nav ul{
 	display: inline-block;
 	/* overflow: hidden;*/
 	list-style: none;
-	display: block;
+	margin: 0;
+	padding: 0;
 }
 nav ul li{
 	vertical-align: center;
 	float: left;
-	margin-left: 10px;
 }
 nav ul li a{
-    border-width: 1px 0px 0px 0px;
+
+    border-width: 1px 1px 0px 0px;
     border-style: solid;
     border-radius: 5px;
     border-color: #ffffff;
@@ -59,6 +61,7 @@ a:hover
 {
 	opacity: 0.9;
 	background: linear-gradient(to right, yellow, white, yellow);
+	border-radius: 50px;
 }
 a:active
 {
@@ -109,29 +112,34 @@ a:active
 		background-color: #fdfdfd;
 	}
 	nav{ 
-		height: 4rem;
-		width: 80%;
+		overflow: hidden;
+		padding: 1.5px;
+		height: 1.7rem;
+		width: 100%;
 		
-		margin-left: 10%;
 		border-width: 0px 0px 1px 0px;
 		border-style: double;
 		border-color:  #8080ff;
 		border-radius: 50px;
 		text-align: center;
+		position: fixed;
 		font-style: none;
-		box-shadow: inset 3px 3px 9px 1px #0c2a18de;	
-		background: linear-gradient(to right, #ffff99 20%, #f2f2f2 60%, #b3ffb3);
-	}
+		box-shadow: inset 3px 3px 9px 1px #0c2a18de;
+
+		background: linear-gradient(to right, #99f3ff 20%, #f2f2f2 60%, #b3ffb3);	
+		/* background: linear-gradient(to right, #ffff99 20%, #f2f2f2 60%, #b3ffb3); */
+	} 
 	nav ul{
 		display: inline-block;
 		/* overflow: hidden;*/
 		list-style: none;
-		display: block;
+		margin: 0px;
+		padding: 0px;
 	}
 	nav ul li{
 		vertical-align: center;
 		float: left;
-		margin-left: 1px;
+		
 	}
 	nav ul li a{
 		border-width: 1px 0px 0px 0px;
