@@ -10,9 +10,11 @@ Author: Mohamad Dian*/
 body
 {
 	background-color: #e6e6ff;
+	background-image: url("../images/1.png");
 }
 nav{ 
-	margin-right: 2%;
+	margin-left:  2%;
+	margin-right:  2%;
 	padding: 2px;
 	height: 30px;
 	width: 96%;
@@ -26,7 +28,10 @@ nav{
 	font-style: none;
 	position: fixed;
 	box-shadow: inset 1px 1px 0.5px 0.5px #0c2a18de;
-	background-color: #404040;	
+	background-color: #0a290a;
+	
+	background-size: cover;
+	/* background-color: #404040;	 */
 	/* background: linear-gradient(to right, #ffff99 20%, #f2f2f2 60%, #b3ffb3); */
 }
 nav ul{
@@ -106,9 +111,19 @@ a:active
 	box-shadow: var(--box-shadow);
 	display: grid;
 }
+#gridfoto1{
+	width: 16rem;
+}
+#gridfoto2{
+	width: 11.9rem;
+}
+#gridfoto3{
+	width: 22.6rem;
+}
 .grid-container div {
 		background-color: #9999ff;
-		padding: 10px;
+		padding: 1px;
+		border-radius: 8px;
 }
 /* ----------------------------telefoon----------------------------------- */
 
@@ -123,9 +138,19 @@ a:active
 		margin-left: 1%;
 		margin-top: 7%;
 		display: grid;
-		grid-template-areas: 'myArea ';
+		grid-template-areas: 'myArea';
 		grid-gap: 7px;
 		padding: 0px;
+	}
+	.foto{
+		box-shadow: var(--box-shadow);
+		display: grid;
+		
+		
+		width: 19rem; 
+	}
+	#gridfoto1{
+		width: 16rem;
 	}
 	
 }
