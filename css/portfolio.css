@@ -134,6 +134,9 @@ a:active
 	body {
 		background-color: #50df250c;
 	}
+	nav{
+		overflow: unset;
+	}
 	.grid-container {
 	
 		width: 100%;
