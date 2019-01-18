@@ -101,33 +101,15 @@ a:active
 
 .grid-container {
 	
-	width: 2%;
 	height: 16rem;
 	margin-left: 9%;
-	margin-top: 2%;
+	margin-top: 8%;
     display: grid;
 	grid-template-areas: 'myArea myArea myArea';
 	grid-gap: 10px;
 	padding: 0px;
 }
-.foto{
-	box-shadow: var(--box-shadow);
-	display: grid;
-}
-#gridfoto1{
-	width: 16rem;
-}
-#gridfoto2{
-	width: 11.9rem;
-}
-#gridfoto3{
-	width: 22.6rem;
-}
-.grid-container div {
-		background-color: #9999ff;
-		padding: 1px;
-		border-radius: 8px;
-}
+
 /* ----------------------------telefoon----------------------------------- */
 
 @media only screen and (max-width: 600px) {
@@ -144,15 +126,13 @@ a:active
 		font-size: 130%;
 	}
 	.grid-container {
-	
-		width: 100%;
-		height: 16rem;
-		margin-left: 1%;
-		margin-top: 7%;
+
+		text-align: center;
+		
 		display: grid;
 		grid-template-areas: 'myArea';
-		grid-gap: 7px;
-		padding: 0px;
+	
+		
 	}
 	.foto{
 		box-shadow: var(--box-shadow);
