@@ -135,7 +135,12 @@ a:active
 		background-color: #50df250c;
 	}
 	nav{
-		overflow: unset;
+		height: auto;
+
+	}
+	nav ul li a{
+		margin: 4px 5px 0px 5px;
+		font-size: 130%;
 	}
 	.grid-container {
 	
