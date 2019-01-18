@@ -136,7 +136,8 @@ a:active
 	}
 	nav{
 		height: auto;
-
+		margin-left: 1%;
+		width: 95%;
 	}
 	nav ul li a{
 		margin: 4px 5px 0px 5px;
