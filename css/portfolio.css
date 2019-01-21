@@ -75,7 +75,7 @@ nav ul li a{
 	 */
 }
 .foto:hover{
-	filter: invert(100%);
+	filter: invert(100%); 
 }
 a:hover
 {
@@ -98,7 +98,20 @@ a:active
 	height: 16rem;	
 	border-radius: 15px;
 	box-shadow: 2px 2px 6px #001aff;
+}
+.divfoto{
+	border-radius: 15px;
+	background: #ffffff;
+	text-align: center;
+}
+#divfoto3{
+	width: 23rem;
 
+}
+
+.divfoto p{
+	width: 300px;
+	display: inline-block;
 }
 /* grid-contener-------------------------------------- */
 
