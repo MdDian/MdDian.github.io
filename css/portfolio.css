@@ -101,17 +101,18 @@ a:active
 }
 .divfoto{
 	border-radius: 15px;
-	background: #ffffff;
+	background: white;
 	text-align: center;
 }
 #divfoto3{
 	width: 31rem;
-
 }
 
 .divfoto p{
 	width: 300px;
 	display: inline-block;
+	color: #000000;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
 }
 /* grid-contener-------------------------------------- */
 
