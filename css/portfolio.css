@@ -114,6 +114,13 @@ a:active
 	color: #000000;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
 }
+span{
+	font-size: 126%;
+	font-family: cursive;
+}
+iframe{
+	border-radius: 222px;
+}
 /* grid-contener-------------------------------------- */
 
 .grid-container {	
@@ -170,6 +177,20 @@ a:active
 	#imgingrid2{
 		/* filter: invert(100%); */
 		height: 11rem;
+	}
+	#imgingrid3{
+		/* filter: invert(100%); */
+		width: 19rem;
+		height: 12rem;
+		margin-left: -10rem;
+	}
+	iframe{
+		height: 20rem;
+		width: 27rem;
+		border-width: 1.5px  0px 1.5px 0px;
+    border-style: solid;
+    border-radius: 445px;
+    border-color: #ffffff;
 	}
 	 
 }
