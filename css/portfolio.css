@@ -142,8 +142,8 @@ iframe{
 	padding: 0px;	
 }
 @keyframes right{
-	0%{left:0; color: yellow;}
-	50%{left:98%}
+
+	0%{left:98%}
 	100%{left:0;}
 	}
 /* ----------------------------telefoon----------------------------------- */
