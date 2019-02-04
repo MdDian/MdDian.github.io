@@ -103,6 +103,7 @@ a:active
 	border-radius: 15px;
 	background: white;
 	text-align: center;
+	margin-bottom: 145px;
 }
 #divfoto3{
 	width: 31rem;
@@ -119,7 +120,10 @@ span{
 	font-family: cursive;
 }
 iframe{
-	border-radius: 222px;
+	width:400px;
+	height:280px;
+	border: 4px rgb(0, 183, 255) solid;
+	border-radius: 2px;
 }
 /* grid-contener-------------------------------------- */
 
@@ -159,11 +163,12 @@ iframe{
 		border-radius: 15px;
 		background: #eaf0fc9d;
 		text-align: center;
-		width: 350pt;
+		width: 29rem;
+		margin-bottom: 9rem;
 	}
 	.divfoto p{
-		margin-left: 0px;
-		width: 300px;
+		margin-left: --1px;
+		width: 230px;
 		display: inline-block;
 		vertical-align: top;
 	}
@@ -186,11 +191,8 @@ iframe{
 	}
 	iframe{
 		height: 20rem;
-		width: 27rem;
-		border-width: 1.5px  0px 1.5px 0px;
-    border-style: solid;
-    border-radius: 445px;
-    border-color: #ffffff;
+		width: 20rem;
+		border: 4px rgb(123, 255, 0) solid;
 	}
 	 
 }
