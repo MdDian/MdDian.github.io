@@ -135,8 +135,8 @@ iframe{
 	margin: 0px;;
 	width:400px;
 	height:280px;
-	border: 4px rgb(208, 255, 0) solid;
-	border-radius: 2px;
+	border: 4px rgba(0, 255, 34, 0.527) solid;
+	border-radius: 8px;
 }
 /* grid-contener-------------------------------------- */
 
