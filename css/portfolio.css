@@ -10,7 +10,9 @@ Author: Mohamad Dian*/
 body
 {
 	background-color: #e6e6ff;
-	background-image: url("../images/1.png");
+	/* background-image: url("../images/1.png"); */
+	background-image: url("../images/f.jpg");
+
 }
 
 /* filter: blur(8px);
@@ -32,7 +34,7 @@ nav{
 	font-style: none;
 	position: fixed;
 	box-shadow: inset 1px 1px 5px 1px #0066ffad;
-	
+	z-index: 1;
 	background-color: #00053025;
 	
 	background-size: cover;
@@ -92,22 +94,21 @@ a:active
 	margin-top: 4px;
 	border-radius: 50%;
 	font-size: 120%;
-
-
 }
 
 .foto{
 	height: 16rem;	
 	border-radius: 15px;
-	box-shadow: 2px 2px 6px #001aff;
+	/* box-shadow: 2px 2px 6px #001aff; */
+	box-shadow: 2px 2px 6px #ff2600;
+	
 }
 .divfoto{
 	border-radius: 15px;
 	background: white;
 	text-align: center;
 	margin-bottom: 145px;
-
-	animation: right 5s 1;
+	animation: right 4s 1;
 	position: relative;
 }
 #divfoto3{
@@ -125,25 +126,25 @@ span{
 	font-family: cursive;
 }
 iframe{
+	margin: 0px;;
 	width:400px;
 	height:280px;
-	border: 4px rgb(0, 183, 255) solid;
+	border: 4px rgb(208, 255, 0) solid;
 	border-radius: 2px;
 }
 /* grid-contener-------------------------------------- */
 
 .grid-container {	
-	height: 16rem;
 	margin-left: 0,5rem;
 	margin-top: 3%;
     display: grid;
-	grid-template-areas: 'myArea myArea myArea';
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 10px;
 	padding: 0px;	
 }
 @keyframes right{
 
-	0%{left:98%}
+	0%{left:80%}
 	100%{left:0;}
 	}
 /* ----------------------------telefoon----------------------------------- */
@@ -166,7 +167,7 @@ iframe{
 		margin-top: 7%;
 		text-align: center;
 		display: grid;
-		grid-template-areas: 'myArea';	
+		grid-template-columns: 1fr;
 	}
 	.divfoto{
 		border-radius: 15px;
@@ -176,7 +177,7 @@ iframe{
 		margin-bottom: 1.2rem;
 	}
 	.divfoto p{
-		margin-left: --1px;
+		margin-left: 1px;
 		width: 230px;
 		display: inline-block;
 		vertical-align: top;
@@ -187,6 +188,7 @@ iframe{
 		width: 8rem; 
 		height: 8rem;
 		display: inline-block;
+		margin-left: -100px;
 	}
 	#imgingrid2{
 		/* filter: invert(100%); */
@@ -203,6 +205,5 @@ iframe{
 		width: 20rem;
 		border: 4px rgb(123, 255, 0) solid;
 	}
-	 
-}
+};
 
