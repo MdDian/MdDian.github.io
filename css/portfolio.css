@@ -9,7 +9,8 @@ Author: Mohamad Dian*/
 }
 body
 {
-	background-color: #e6e6ff;
+	background-color: rgba(17, 0, 255, 0.199);
+	/* background-color: #e6e6ff; */
 	/* background-image: url("../images/1.png"); */
 	/* background-image: url("../images/f.jpg"); */
 	/* background-image: url("../images/h.jpg"); */
