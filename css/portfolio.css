@@ -82,6 +82,21 @@ nav ul li a{
 	border: 1px solid #4d0000; 
 	 */
 }
+a{
+	font-size: 110%;
+	font-family: Berlin Sans FB;
+	color: white;
+
+    border-width: 1.5px  0px 1.5px 0px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #ffffff;
+	margin: 1px 15px 5px 15px;
+	padding: 2px 2px 2px 2px;
+	background-color: #00247f;
+	text-decoration: none;
+	display: inline-block;
+}
 .foto:hover{
 	filter: invert(100%); 
 }
@@ -107,6 +122,13 @@ a:active
 	border-radius: 15px;
 	/* box-shadow: 2px 2px 6px #001aff; */
 	box-shadow: 2px 2px 6px #0059ff;
+}
+img{
+	margin-top: 0px;
+	border-radius: 10px;
+}
+#imgingrid8{
+	margin-top: 50px;
 	
 }
 .divfoto{
@@ -116,6 +138,7 @@ a:active
 	margin-bottom: 145px;
 	animation: right 4s 1;
 	position: relative;
+	overflow: hidden;
 }
 #divfoto3{
 	width: 31rem;
@@ -179,11 +202,13 @@ iframe{
 		border-radius: 15px;
 		background: #eaf0fc9d;
 		text-align: center;
-		width: 29rem;
+		width:100%;
 		margin-bottom: 1.2rem;
 	}
+	#divfoto3{
+		width: 100%;
+	}
 	.divfoto p{
-		margin-left: 1px;
 		width: 230px;
 		display: inline-block;
 		vertical-align: top;
@@ -194,7 +219,7 @@ iframe{
 		width: 8rem; 
 		height: 8rem;
 		display: inline-block;
-		margin-left: -100px;
+		margin-left: -3rem;
 	}
 	#imgingrid2{
 		/* filter: invert(100%); */
@@ -204,7 +229,7 @@ iframe{
 		/* filter: invert(100%); */
 		width: 19rem;
 		height: 12rem;
-		margin-left: -10rem;
+		margin-left: 0rem;
 	}
 	iframe{
 		height: 20rem;

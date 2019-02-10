@@ -1,0 +1,146 @@
+/*
+filename: kleurtjes2.css 
+date: 20-09-2018  10:54
+author:
+*/
+
+body
+{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+h1
+{
+	display: inline-block;
+	margin-left:8%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-shadow: 2px 3px 4px  #f2f2f2;
+	box-shadow: 2px 3px 4px  #ff66b3;
+	font-size: 63px;
+	color: #004d00;
+	background-color: 	 #e6ffe6;
+	border: 0.34px solid blue;
+	border-radius: 5px;
+	padding: 1px;
+}
+
+.spanclasskoffie
+{
+	color: red;
+	padding: 0.5px;
+	border-style: solid;
+	border-color: orange;
+	border-radius: 9px;
+}
+
+p
+{
+	width: 500px;
+	border: blue dashed 2px;
+	border-radius: 3px;
+	padding: 4px;
+	box-shadow: 9px 9px 33px #ff4d4d; 
+	
+}
+
+span
+{
+   border-radius: 14px;
+}
+
+img
+{
+	border-radius: 22px;
+}
+
+.divjes
+{
+   width: 100%;
+   height: 300px;
+   overflow: hidden;
+   background-color: #cc0066;
+   margin-top: 8px;
+   margin-bottom: 8px; 
+   border-radius: 12px; 
+   padding: 6px;   
+   box-shadow: 2px 4px 6px #66a3ff;
+}
+
+
+
+#diva
+{
+	
+}
+
+#divb
+{
+   
+}
+
+#divc
+{
+	
+}
+
+#divd
+{
+	height:102px;
+}
+
+
+
+#spana
+{
+	
+}
+
+#spanb
+{
+	margin-left: 35.5%;
+}
+
+#spanc
+{
+	margin-left: 75.5%;
+}
+
+#spand
+{
+	margin-right: 33%;
+	margin-left: 3%;
+}
+
+#spane
+{
+	margin-right: 28.5%;
+}
+
+#spanf
+{
+   margin-left:2%;
+}
+
+.spanclassd
+{
+
+}
+a
+{
+ border-width: 1px 1px 1px 1px;
+ border-style: solid;
+ border-radius: 5px;
+ border-color: 	rgba(128, 100, 0, 0.8);
+ border-bottom-width: 3px;
+ padding: 2px 2px 2px 2px; 
+ display: inline-block;
+ background-color: rgba(102, 255, 102, 0.8);
+ margin: 1px 15px 15px 1px;
+ text-decoration: none;
+ }
+
+
+
+
