@@ -1,32 +1,49 @@
 
 body
 {
-    display: inline-block;
     background-color: rgba(22, 255, 88, 0.1); 
     border: 3px dashed red;
-    margin: 15px;
 }
-#nava
-{  
-    display: block;
-    font-style: none;
-    display: inline-block;
-    background-color: rgba(255,0,0,0.3);
-    height: 29px;
-    width: 1210px;
-    border: 5px;
-    border-radius: 30px;
-    padding: 4px;
-    margin-top: 2px;
-    overflow: none;
-    background-image: linear-gradient(to left, #4dff4d, #ffff4d, #ff6666);
-    box-shadow: 4px 9px 15px rgba(255, 33, 3, 0.8);   
-}
+nav{
+  background-image: linear-gradient(to left, #4dff4d, #ffff4d, #ff6666);
+  border: 5px;
+  border-radius: 50px;
+  margin-top: 4px;
+  margin-left: 4px; 
+  margin-right: 4px;
 
-#nava a:hover{
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 4px 9px 15px rgba(255, 33, 3, 0.8);   
+  /* position: fixed; */
+}
+nav ul{
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	vertical-align: center;
+	float: left;
+}
+nav ul li a{
+	font-family: Berlin Sans FB;
+	color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(128, 100, 0, 0.8);
+	margin: 5px 10px 5px 10px;
+	padding: 2px 2px 2px 2px;
+	background-color: rgba(102, 255, 102, 0.8);
+	text-decoration: none;
+	display: inline-block;
+}
+nav a:hover{
 	color: white;
 }
-#nava a:visited{
+nav a:visited{
 	background-color: linear-gradient(to left, blue, white 60%, red);
 }
 #spanb
@@ -54,24 +71,10 @@ p{
 	border-radius: 8px;
 	box-shadow: 7px 10px 15px;
 }	
-#nava a{
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: 	rgba(128, 100, 0, 0.8);
-    border-bottom-width: 3px;
-    padding: 2px 2px 2px 2px; 
-    display: inline-block;
-    background-color: rgba(102, 255, 102, 0.8);
-    margin: 1px 15px 15px 1px;
-    text-decoration: none;
-}
 img{
     border-radius: 25px;
 }
- 
- 
- /*kubus---------------------------------------------------------------------*/
+ /*kubus--------------------------------------------------------------------------*/
  
  @keyframes spinning {
   from {
@@ -81,8 +84,6 @@ img{
     transform: rotateX(360deg) rotateY(360deg);
   }
 }
-
-
 .container {
   display: block;
   border: 0px solid #fff;
@@ -91,8 +92,6 @@ img{
   transform-origin: 50% 50%;
   perspective-origin: 50% 50%;
 }
-
-
 .kubus {
   position: relative;
   margin: 0 auto;
@@ -104,20 +103,17 @@ img{
   animation-play-state: running;
   cursor: pointer
 }
-
 .kubus div {
   position: absolute;
   height: 200px;
   width: 200px;
   box-shadow: 0 0 50px rgba(0, 0, 0, .5);
 }
-
 .kubus div:nth-child(1) {
   transform: translateZ(100px);
   background: url(https://webmary.nl/img/oog.jpg) no-repeat;
   background-size: cover;
 }
-
 .kubus div:nth-child(2) {
   transform: rotateY(90deg) translateZ(100px);
   background-color: #008800;
@@ -126,20 +122,17 @@ img{
   background-repeat: no-repeat;
   opacity: .6;
 }
-
 .kubus div:nth-child(3) {
   transform: rotateY(180deg) translateZ(100px);
   background: url(http://www.webmary.nl/img/mail.png) no-repeat;
   background-size: cover;
   opacity: .6;
 }
-
 .kubus div:nth-child(4) {
   transform: rotateY(-90deg) translateZ(100px);
   background: url(./../images/Marcello.png) no-repeat;
   background-size: contain;
 }
-
 .kubus div:nth-child(5) p {
   color: #fff;
   font-family: sans-serif;
@@ -150,7 +143,6 @@ img{
   top: 50%;
   transform: translateY(-50%)
 }
-
 .kubus div:nth-child(5) {
   transform: rotateX(-90deg) translateZ(100px) rotate(180deg);
   background: rgb(136,128, 0);
@@ -160,19 +152,15 @@ img{
   background-position: 0 0, 50px 50px;
   text-align: center;
 }
-
 .kubus div:nth-child(6) {
   transform: rotateX(90deg) translateZ(100px);
   background: url(http://www.webmary.nl/img/cookie.png) rgba(255, 50, 200, .5) no-repeat center center;
   background-size: contain;
 }
-
 .kubus:hover {
   /*animation-play-state: paused;*/
   /*animation: spinning 1.1s pauze;*/
   animation-delay: 3s;
 }
 
-
-
-/*kubus einde*/
+/*kubus einde -----------------------------------------------------------------*/
