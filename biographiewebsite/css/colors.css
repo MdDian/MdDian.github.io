@@ -111,20 +111,20 @@ img{
 }
 .kubus div:nth-child(1) {
   transform: translateZ(100px);
-  background: url(https://webmary.nl/img/oog.jpg) no-repeat;
+  background: url(./../images/psg.png) no-repeat;
   background-size: cover;
 }
 .kubus div:nth-child(2) {
   transform: rotateY(90deg) translateZ(100px);
   background-color: #008800;
-  background: url(http://www.webmary.nl/img/tel.png) no-repeat;
+  background: url(./../images/mbappe.png) no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: .6;
 }
 .kubus div:nth-child(3) {
   transform: rotateY(180deg) translateZ(100px);
-  background: url(http://www.webmary.nl/img/mail.png) no-repeat;
+  background: url(./../images/juist.png) no-repeat;
   background-size: cover;
   opacity: .6;
 }
@@ -154,13 +154,13 @@ img{
 }
 .kubus div:nth-child(6) {
   transform: rotateX(90deg) translateZ(100px);
-  background: url(http://www.webmary.nl/img/cookie.png) rgba(255, 50, 200, .5) no-repeat center center;
+  background: url(./../images/mbappe3.png) rgba(255, 50, 200, .5) no-repeat center center;
   background-size: contain;
 }
 .kubus:hover {
   /*animation-play-state: paused;*/
   /*animation: spinning 1.1s pauze;*/
-  animation-delay: 3s;
+  animation-delay: 34s;
 }
 
 /*kubus einde -----------------------------------------------------------------*/
